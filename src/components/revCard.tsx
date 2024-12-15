@@ -1,6 +1,5 @@
 import React from 'react'
-import { Card } from './ui/card'
-import { FaCarSide } from "react-icons/fa";
+import { Card } from './ui/card';
 import { revCard_data } from './constant/revCard';
 import { FaCheck } from "react-icons/fa6";
 
@@ -16,7 +15,7 @@ function RevCard() {
 
             <h1 className='text-[20px] leading-[28px] text-[#007580]'>{item.heading}</h1>
 
-            <p className='text-[16px] leading-[24px] text-[#007580]'>{item.deatils}</p>
+            <p className='text-[16px] leading-[24px] text-[#007580]'>{item.details}</p>
          </Card>
             )
         })}
